@@ -76,7 +76,7 @@ install(
 )
 
 install(
-    FILES ${libpng_public_hdrs}
+    FILES ${JPEG_HEADERS}
     DESTINATION "${include_install_dir}"
 )
 
